@@ -1,0 +1,25 @@
+
+$blue: #66d4f4;
+$cyan: #4ca3e6;
+$white: #fff;
+$textup: uppercase;
+$line-height: 40px;
+$main-font: 'Raleway', sans-serif;
+$secondary-font: 'Roboto Slab', serif;
+$descr-text: #848484;
+$input-btn-padding-y-lg: .8rem;
+$input-btn-padding-x-lg: 2.7rem;
+
+%equal-position {
+	position: absolute;
+	left: 0;
+}
+
+%equal-slides {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 40vw;
+	min-width:350px;
+	transform: translate(-50%, -50%);
+}
