@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var activeSlide = $('.slider_item.active');
 		var nextSlides = activeSlide.nextAll();
 
-		if (nextSlides.length <= 1) {
+		if (nextSlides.length <= 2) {
 			slider.children('.slider_item').first().appendTo(slider);
 		}
 		var nextSlide = activeSlide.next();
@@ -17,7 +17,7 @@ $(document).ready(function() {
 	var slider = $('.slider');
 		var activeSlide = $('.slider_item.active');
 		var pervSlides = activeSlide.prevAll();
-		if (pervSlides.length <= 1) {
+		if (pervSlides.length <= 2) {
 			slider.children('.slider_item').last().prependTo(slider);
 		}
 		var prevSlide = activeSlide.prev();
